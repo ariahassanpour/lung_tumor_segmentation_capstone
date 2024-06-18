@@ -6,8 +6,18 @@ This jupyter notebook is my solution for the Capstone Project of Udemy's Deep Le
 Segmentation of Lung Tumor on the CT scans of patients.
 
 # Data:
-Medical Segmentation Decathlon (http://medicaldecathlon.com/)
-63 3D CT Scan files of the Lung were used for training with a 0.2 validation split. Due to the small number of slices containing tumor, oversampling was performed. Considering all individual slices of the 3D scans, a total number of 27729 train images and 2050 val images were used. 
+Data is obtained from the Medical Segmentation Decathlon challenge (http://medicaldecathlon.com/)
+63 3D CT Scan files of the Lung were used for training with a 0.2 validation split. Due to the small number of slices containing tumor, oversampling was performed. Considering all individual slices of the 3D scans, a total number of 27729 train images and 2050 val images were used. <br>
+here is the [direct link](https://msd-for-monai.s3-us-west-2.amazonaws.com/Task06_Lung.tar) to download the data.
+
+# Python packages:
+the major Python packages used in this project are: <br>
+* torch
+* pytorch_lightning
+* nibabel
+* numpy
+* imgaug
+* sklearn.metrics
 
 # Augmentation: 
 translate augmentation: 15 percent <br>
