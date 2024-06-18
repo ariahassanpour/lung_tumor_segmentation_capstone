@@ -33,7 +33,8 @@ The f1 score  is: 0.495159726167318 <br><br>
  
 
 Train set lung_003.nii.gz slice 140: <br>
- 
+![a sclice of the training set with the corresponding predicted mask and ground truth](/train_example.png?raw=true)
 
 Test set lung_085.nii.gz slice 187: <br>
+![a sclice of the test set with the corresponding predicted mask](/test_example.png?raw=true)
 
